@@ -242,7 +242,7 @@ describe('Step 1: FizzBuzz Full Run', function(){
                 //Assert
                 assert(returnValue=="FizzBuzz");
             })
-            it ("calling a 32 by evenly divisble by 3 or 5 ", function () {
+            it ("calling a 32 by that can be evenly divisble by 3 or 5 ", function () {
                 //Arrange
                 var valueToTest = 32;
                 //Act
@@ -250,4 +250,5 @@ describe('Step 1: FizzBuzz Full Run', function(){
                 //Assert
                 assert(returnValue == valueToTest);
             })
+
         })

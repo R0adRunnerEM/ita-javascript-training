@@ -19,7 +19,7 @@ var returnArrayFromCsvString = function(string){
 //keep variables at the top
 // if (typeof valueToTest ==="")
 // truthyness and falsyness- booleen will allow values 0=false empty string=falsyness 
-var fizzBuzzMain = function(valueToTest) {
+var consoleRunner = function() {
     
     for (var i =0; i<100; i++){
         console.log(returnStringFizzBuzz(i));
@@ -78,10 +78,10 @@ var isEvenlyDivisibleInteger = function(dividend, divisor){
 
 
 
-module.exports = {
-    ReturnArrayFromCsvString : returnArrayFromCsvString,
-    FizzBuzzMain : fizzBuzzMain,
-    BoolCheckForEvenlyDivisibleInteger : isEvenlyDivisibleInteger,
-    ReturnStringFizzBuzz : returnStringFizzBuzz
-}
+//module.exports = {
+//    ReturnArrayFromCsvString : returnArrayFromCsvString,
+//    FizzBuzzMain : fizzBuzzMain,
+//    BoolCheckForEvenlyDivisibleInteger : isEvenlyDivisibleInteger,
+ //   ReturnStringFizzBuzz : returnStringFizzBuzz
+//}
 
