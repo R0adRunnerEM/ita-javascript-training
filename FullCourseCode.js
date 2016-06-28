@@ -37,12 +37,12 @@ var returnStringFizzBuzz = function(valueToTest){
     //var something=new Error ()
     //something
 
-    try {
+    //try {
         var converted = valueToTest || 10;
 
-        if (typeof converted !== "number") {
-            throw new Error("Invalid input parameters");
-        }
+        //if (typeof converted !== "number") {
+          //  throw new Error("Invalid input parameters");
+        //}
 
         if ( isEvenlyDivisibleInteger(converted,buzz) && isEvenlyDivisibleInteger(converted,fizz)) {
             return ("FizzBuzz")
@@ -58,10 +58,10 @@ var returnStringFizzBuzz = function(valueToTest){
         else {
             return (converted);
         }
-    } catch (ex) {
+    //} catch (ex) {
 
-        throw ex;
-    }
+       // throw ex;
+    //}
 
 
 }
